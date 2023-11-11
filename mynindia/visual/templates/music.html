@@ -1,0 +1,133 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundFly</title>
+    <link rel="stylesheet" href="{% static 'css/mymusic.css' %}">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+        <div class="content">
+            <div class="top-content">
+                <div class="trending">
+                    <div class="left">
+                        <p class="type">WORLD EXPO 2030 BUSAN KOREA CONCERT</p>
+                        <p class="title">BTS</p>
+                        <p class="artist">Yet to Come in Busan</p>
+                        <p class="view">2022.10.15. SAT 6PM BUSAN ASIAD MAIN STADIUM</p>
+                        <a href="#" class="btn-play">Play Now</a>
+                    </div>
+                    <div class="right">
+                        <img src="{% static 'images/avatar.jpg' %}" alt="">
+                        <a href="nindia" style="text-decoration: none; color: aliceblue;" >Nindiappc</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-content">
+                <div class="playlist">
+                    <div class="left-side">
+                        <div class="left-side-top">
+                            <div class="top-albums-title">
+                                <span>Top Albums</span>
+                                <span>See all</span>
+                            </div>
+                            <div class="top-albums">
+                                <div class="card-albums">
+                                    <img src="{% static 'images/indigo.jpg' %}" alt="">
+                                    <p>Kim Namjoon</p>
+                                </div>
+                                <div class="card-albums">
+                                    <img src="{% static 'images/box.jpg' %}" alt="">
+                                    <p>Jung Hoseok</p>
+                                </div>
+                                <div class="card-albums">
+                                    <img src="{% static 'images/d-day.jpg' %}" alt="">
+                                    <p>Min Yoongi</p>
+                                </div>
+                                <div class="card-albums">
+                                    <img src="{% static 'images/face.png' %}" alt="">
+                                    <p>Park Jimin</p>
+                                </div>
+                                <div class="card-albums">
+                                    <img src="{% static 'images/golden.jpg' %}" alt="">
+                                    <p>Jeon Jungkook</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="left-side-bottom">
+                            <div class="left">
+                                <div class="genres-table-title">
+                                    <span>Artist</span>
+                                </div>
+                                <div class="genres-table">
+                                    <span class="grid-item">JIN</span>
+                                    <span class="grid-item">SUGA</span>
+                                    <span class="grid-item">J-HOPE</span>
+                                    <span class="grid-item">RM</span>
+                                    <span class="grid-item">JIMIN</span>
+                                    <span class="grid-item">V</span>
+                                    <span class="grid-item">JUNGKOOK</span>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <p>Top Songs</p>
+                                <div class="songs">
+                                    <div class="song">
+                                        <img src="{% static 'images/astronout.jpg' %}" alt="" class="song-img">
+                                        <div class="song-title">
+                                            <span>The Astronout</span>
+                                            <span>Kim Seokjin</span>
+                                        </div>
+                                        <span class="song-time">
+                                            3.56 min
+                                        </span>
+                                        <a href="#" class="btn-song-play">
+                                            <i class="far fa-play-circle"></i>
+                                        </a>
+                                    </div>
+                                    <div class="song">
+                                        <img src="{% static 'images/over.jpg' %}" alt="" class="song-img">
+                                        <div class="song-title">
+                                            <span>LayOver</span>
+                                            <span>Kim Taehyung</span>
+                                        </div>
+                                        <span class="song-time">
+                                            4.12 min
+                                        </span>
+                                        <a href="#" class="btn-song-play">
+                                            <i class="far fa-play-circle"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <p class="adp-card-title">Now Playing</p>
+                        <div class="audio-player">
+                            <img src="{% static 'images/spine.jpg' %}" alt="" class="adp-img" id="image">
+                            <div class="adp-title">
+                                <p id="title">Spine Breaker</p>
+                                <p>In a Perfect World</p>
+                                <p>BTS</p>
+                            </div>
+                        </div>
+                        <div class="adp-action">
+                            <a href="#" id="previous" onclick="previousSong()"><i class="fas fa-backward"></i></a>
+                            <a href="#" id="play" onclick="justPlay()"><i class="fas fa-play"></i></a>
+                            <a href="#" id="next" onclick="nextSong()""><i class="fas fa-forward"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'js/musicku.js' %}"></script>
+</body>
+
+</html>
