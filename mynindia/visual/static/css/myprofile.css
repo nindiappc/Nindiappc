@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: verdana;
+}
+.judul{
+    font-size: 2.6em;
+}
+*{margin: 0;padding: 0}
+.box{
+    width: 500px;
+    height: 312px;
+    position: relative;
+}
+.box img{
+    width: 100%;
+}
+img,p{
+    position: absolute;
+}
+
+.atasKiri{
+    font-style: normal;
+    font-size: 1.7em;
+    top: 10px;
+    left: 550px;
+}
+.bawahKiri{
+    font-style: normal;
+    font-size: 1.7em;
+    top: 50px;
+    left: 550px;
+}
+
+.jenis{
+    font-style: normal;
+    font-size: 1.7em;
+    top: 90px;
+    left: 550px;
+}
+
+.tetala{
+    font-style: normal;
+    font-size: 1.7em;
+    top: 130px;
+    left: 550px;
+}
+
+.atasKanan{
+    font-style: normal;
+    font-size: 1.7em;
+    top: 170px;
+    left: 550px;
+}
+.bawahKanan{
+    font-style: normal;
+    font-size: 1.7em;
+    top: 210px;
+    left: 550px;
+}
+.tengah{
+    font-style: normal;
+    font-size: 1.7em;
+    top: 250px;
+    left: 550px;
+}
+
+.univ{
+    font-style: normal;
+    font-size: 1.7em;
+    top: 290px;
+    left: 550px;
+}
+
+.alamat{
+    font-style: normal;
+    font-size: 1.7em;
+    top: 330px;
+    left: 550px;
+}
